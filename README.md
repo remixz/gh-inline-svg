@@ -4,6 +4,12 @@
 
 Shows an inline preview of SVG files on GitHub. A Chrome extension.
 
+### Install
+
+The easiest way is to install here: https://chrome.google.com/webstore/detail/github-inline-svg/jbfbnojdibndlopjgadibhcphchdbfkh?hl=en&gl=CA
+
+However, you can also use the `chrome` folder as an unpacked extension.
+
 ### TODO
 
 * Make it not Chrome-only
