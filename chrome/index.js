@@ -6,7 +6,7 @@
  */
 
 var textToSvg = function () {
-    var lines = [].slice.call(document.querySelectorAll('.file-code .line'));
+    var lines = [].slice.call(document.querySelectorAll('.blob-wrapper table td.blob-line-code'));
     if (lines.length === 0) return; // chrome calls the event twice, the first time being immediately after click, when nothing is loaded
 
     var svgText = '';
@@ -17,7 +17,7 @@ var textToSvg = function () {
     var parser = new DOMParser();
     var svgDoc = parser.parseFromString(svgText, 'image/svg+xml');
 
-    var editor = document.querySelector('.file-code');
+    var editor = document.querySelector('.blob-wrapper table');
     editor.style.display = 'none';
 
     var divWrapper = document.createElement('div');
