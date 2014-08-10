@@ -3,7 +3,7 @@
 
     "name": "GitHub Inline SVG",
     "description": "Shows an inline preview of SVG files on GitHub",
-    "version": "0.0.1",
+    "version": "0.0.2",
 
     "background": {
         "scripts": [ "background.js" ]
