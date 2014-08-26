@@ -6,7 +6,7 @@
  */
 
 var textToSvg = function () {
-    var lines = [].slice.call(document.querySelectorAll('.blob-wrapper table td.blob-line-code'));
+    var lines = [].slice.call(document.querySelectorAll('.blob-wrapper table td.blob-code'));
     if (lines.length === 0) return; // chrome calls the event twice, the first time being immediately after click, when nothing is loaded
 
     var svgText = '';
