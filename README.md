@@ -1,3 +1,7 @@
+# Deprecated
+
+GitHub has added their own inline SVG rendering (https://github.com/blog/1902-svg-viewing-diffing), so this extension is no longer needed.
+
 ## GitHub Inline SVG
 
 ![preview](http://my.bruggie.com/image/0P3q312D0h36/Image%202014-07-22%20at%208.52.15%20PM.png)
